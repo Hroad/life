@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: url(../img/bg.jpg);
+}
+#container{
+	background-color: #121212;
+	width: 1024px;
+	height: 768px;
+	margin: 0px auto;
+	text-align: left;
+	position: relative;
+}
+#logo{
+
+	width: 185px;
+	height: 163px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+#nav{
+	width: 185px;
+	height: 605px;
+
+	position: relative;
+	top: 163px;
+}
+#nav ul{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	top: 76px;
+	left: 28px;
+}
+#nav ul li{
+	line-height: 40px;
+}
+#nav ul li img{
+	border: 0px;
+}
+#uyan_frame{
+	width: 835px;
+	height: 738px;
+	position: absolute;
+	top: 30px;
+	left: 350px;
+
+
+}
+.counter{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	font-family: 黑体;
+	font-size: 20px;
+	color: #fff;
+}
+
+.statisical a{
+	color: #fff;
+}

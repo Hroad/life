@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/folding.css"/>
+		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/link.js"></script>
+		<script type="text/javascript" src="js/zp.js"></script>
+		<script type="text/javascript" src="js/customer.js"></script>
+	</head>
+	<body>
+		<div class="counter">
+			网站访问量：<br>
+		<!--计数器代码-->
+		<script language="JavaScript" src="http://free.3v.do/count.asp?id=hulu5230"></script>
+		</div>
+		<div id="container">
+			<div id="logo"><img src="img/logo.png"/></div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html"><img src="img/nav1.png" onmouseover="obj(this,'img/nav1-1.png')" onmouseout="obj(this,'img/nav1.png')"/></a></li>
+					<li><a href="#"><img src="img/nav2.png" onmouseover="obj(this,'img/nav2-2.png')" onmouseout="obj(this,'img/nav2.png')"/></a></li>
+					<li><a href="#"><img src="img/nav3.png" onmouseover="obj(this,'img/nav3-3.png')" onmouseout="obj(this,'img/nav3.png')"/></a></li>
+					<li><a href="#"><img src="img/nav4.png" onmouseover="obj(this,'img/nav4-4.png')" onmouseout="obj(this,'img/nav4.png')"/></a></li>
+					<li><a href="#"><img src="img/nav5.png" onmouseover="obj(this,'img/nav5-5.png')" onmouseout="obj(this,'img/nav5.png')"/></a></li>
+					<li><a href="message.html"><img src="img/nav6.png" onmouseover="obj(this,'img/nav6-6.png')" onmouseout="obj(this,'img/nav6.png')"/></a></li>
+				</ul>
+			</div>
+			<div id="mildde">
+				<div class="bt"><img src="img/folding-bt.png"/></div>
+				
+					<span class="tutorial1">
+						<div class="content">
+						<img src="img/zp1.jpg"/>
+						<div class="txt">
+							<h3>烟花字体</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+					</span>
+				<span class="tutorial2">
+					<div class="content">
+						<img src="img/zp2.jpg"/>
+						<div class="txt">
+							<h3>空间之门</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+				</span>
+				<span class="tutorial3">
+					<div class="content">
+						<img src="img/zp3.jpg"/>
+						<div class="txt">
+							<h3>自然酒瓶</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+				</span>
+				<span class="tutorial4">
+					<div class="content">
+						<img src="img/zp4.jpg"/>
+						<div class="txt">
+							<h3>人体小道</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+				</span>
+				<span class="tutorial5">
+					<div class="content">
+						<img src="img/zp5.jpg"/>
+						<div class="txt">
+							<h3>机器人</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+				</span>
+				<span class="tutorial6">
+					<div class="content">
+						<img src="img/zp6.jpg"/>
+						<div class="txt">
+							<h3>卷纸</h3>
+							<h4>作者：胡璐</h4>
+							<p><a href="#">详细步骤请点击查看</a></p>
+						</div>
+						</div>
+				</span>
+			</div>
+			
+			<div id="btn"><a href="index.html"><img src="img/folding-btn.png"/></a></div>
+			<div id="header">
+				<img src="img/folding-header-bg.png"/>
+			</div>
+
+			<div class="span230" style="margin:0 auto;">
+ 				 <div id="leftDir" class="btntop">&nbsp;</div>
+  					<div id="scrollbox">
+    					<div class="scrollcon">
+      						<div id="boximg" class="scrollpic">
+        						<ul>
+          							<li><a href="http://www.baidu.com" target="_blank"><img src="img/folding-link1.png"/></a></li>
+          							<li><a href="http://www.163.com/" target="_blank"><img src="img/folding-link2.png"/></a></li>
+          							<li><a href="http://www.ifeng.com/" target="_blank"><img src="img/folding-link3.png"/></a></li>
+          							<li><a href="http://koubei.baidu.com/" target="_blank"><img src="img/folding-link4.png"/></a></li>
+        						</ul>
+      						</div>
+      						<div id="fuzhi" class="scrollpic"></div>
+    					</div>
+  					</div>
+  					<div id="rightDir" class="btnbottom"></div>
+			</div>
+		</div>
+			<div class="statisical">
+		<!--网站统计的js-->
+		<script type="text/javascript" src="js/statisical2.js"></script>	
+			</div>
+	</body>
+</html>
+
+<!--图片遮罩的js效果-->
+<script>
+$(function(){
+	$(".content").hover(function(){
+		$(this).children(".txt").stop().animate({height:"300px"},20);
+		$(this).find(".txt h3").stop().animate({paddingTop:"130"},550);
+		$(this).find(".txt p").stop().show();
+	},function(){
+		$(this).children(".txt").stop().animate({height:"65px"},200);
+		$(this).find(".txt h3").stop().animate({paddingTop:"0px"},550);
+		$(this).find(".txt p").stop().hide();
+	})
+})
+</script>
+
+<!--分享的js代码-->
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" >
+var jiathis_config={
+	siteNum:6,
+	sm:"qzone,weixin,tsina,renren,tieba,tqq",
+	summary:"",
+	boldNum:6,
+	showClose:true,
+	shortUrl:true,
+	hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?btn=r2.gif&move=1" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+
+
